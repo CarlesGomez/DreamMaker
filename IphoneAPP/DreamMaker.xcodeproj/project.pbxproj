@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70761ABF1BED9C94007EBFF8 /* TaskQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70761ABE1BED9C94007EBFF8 /* TaskQueue.swift */; };
+		A7D47D051BED219A00C2781B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D041BED219A00C2781B /* AppDelegate.swift */; };
+		A7D47D0A1BED219A00C2781B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D47D081BED219A00C2781B /* Main.storyboard */; };
+		A7D47D0C1BED219A00C2781B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D47D0B1BED219A00C2781B /* Assets.xcassets */; };
+		A7D47D0F1BED219A00C2781B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D47D0D1BED219A00C2781B /* LaunchScreen.storyboard */; };
+		A7D47D1A1BED219A00C2781B /* DreamMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D191BED219A00C2781B /* DreamMakerTests.swift */; };
+		A7D47D251BED219A00C2781B /* DreamMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D241BED219A00C2781B /* DreamMakerUITests.swift */; };
+		A7D47D331BED29CE00C2781B /* WishDreamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D321BED29CE00C2781B /* WishDreamsViewController.swift */; };
+		A7D47D371BED2BDC00C2781B /* DreamListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D361BED2BDC00C2781B /* DreamListCell.swift */; };
+		A7D47D391BED2BE300C2781B /* FinOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D381BED2BE300C2781B /* FinOptionTableViewCell.swift */; };
+		A7D47D3D1BED2C8C00C2781B /* FinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D3C1BED2C8C00C2781B /* FinModel.swift */; };
+		A7D47D3F1BED2C9500C2781B /* Dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D3E1BED2C9500C2781B /* Dream.swift */; };
+		A7D47D491BED54B300C2781B /* CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D481BED54B300C2781B /* CAGradientLayer.swift */; };
+		A7D47D4B1BED5BE900C2781B /* FinDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D4A1BED5BE900C2781B /* FinDetailsViewController.swift */; };
+		A7D47D4D1BED810700C2781B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D47D4C1BED810700C2781B /* UIButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7D47D161BED219A00C2781B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7D47CF91BED219A00C2781B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D47D001BED219A00C2781B;
+			remoteInfo = DreamMaker;
+		};
+		A7D47D211BED219A00C2781B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7D47CF91BED219A00C2781B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D47D001BED219A00C2781B;
+			remoteInfo = DreamMaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70761ABE1BED9C94007EBFF8 /* TaskQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskQueue.swift; sourceTree = "<group>"; };
+		A7D47D011BED219A00C2781B /* DreamMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D47D041BED219A00C2781B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7D47D091BED219A00C2781B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7D47D0B1BED219A00C2781B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7D47D0E1BED219A00C2781B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7D47D101BED219A00C2781B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D47D151BED219A00C2781B /* DreamMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D47D191BED219A00C2781B /* DreamMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamMakerTests.swift; sourceTree = "<group>"; };
+		A7D47D1B1BED219A00C2781B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D47D201BED219A00C2781B /* DreamMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D47D241BED219A00C2781B /* DreamMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamMakerUITests.swift; sourceTree = "<group>"; };
+		A7D47D261BED219A00C2781B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D47D321BED29CE00C2781B /* WishDreamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishDreamsViewController.swift; sourceTree = "<group>"; };
+		A7D47D361BED2BDC00C2781B /* DreamListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DreamListCell.swift; sourceTree = "<group>"; };
+		A7D47D381BED2BE300C2781B /* FinOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinOptionTableViewCell.swift; sourceTree = "<group>"; };
+		A7D47D3C1BED2C8C00C2781B /* FinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinModel.swift; sourceTree = "<group>"; };
+		A7D47D3E1BED2C9500C2781B /* Dream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dream.swift; sourceTree = "<group>"; };
+		A7D47D481BED54B300C2781B /* CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayer.swift; sourceTree = "<group>"; };
+		A7D47D4A1BED5BE900C2781B /* FinDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinDetailsViewController.swift; sourceTree = "<group>"; };
+		A7D47D4C1BED810700C2781B /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7D47CFE1BED219A00C2781B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D47D121BED219A00C2781B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D47D1D1BED219A00C2781B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70761ABD1BED9C86007EBFF8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				70761ABE1BED9C94007EBFF8 /* TaskQueue.swift */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		A7D47CF81BED219A00C2781B = {
+			isa = PBXGroup;
+			children = (
+				A7D47D031BED219A00C2781B /* DreamMaker */,
+				A7D47D181BED219A00C2781B /* DreamMakerTests */,
+				A7D47D231BED219A00C2781B /* DreamMakerUITests */,
+				A7D47D021BED219A00C2781B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D47D021BED219A00C2781B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7D47D011BED219A00C2781B /* DreamMaker.app */,
+				A7D47D151BED219A00C2781B /* DreamMakerTests.xctest */,
+				A7D47D201BED219A00C2781B /* DreamMakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7D47D031BED219A00C2781B /* DreamMaker */ = {
+			isa = PBXGroup;
+			children = (
+				70761ABD1BED9C86007EBFF8 /* Libraries */,
+				A7D47D431BED53D800C2781B /* Extension */,
+				A7D47D351BED2BC000C2781B /* Cells */,
+				A7D47D341BED2B8200C2781B /* Models */,
+				A7D47D041BED219A00C2781B /* AppDelegate.swift */,
+				A7D47D321BED29CE00C2781B /* WishDreamsViewController.swift */,
+				A7D47D4A1BED5BE900C2781B /* FinDetailsViewController.swift */,
+				A7D47D081BED219A00C2781B /* Main.storyboard */,
+				A7D47D0B1BED219A00C2781B /* Assets.xcassets */,
+				A7D47D0D1BED219A00C2781B /* LaunchScreen.storyboard */,
+				A7D47D101BED219A00C2781B /* Info.plist */,
+			);
+			path = DreamMaker;
+			sourceTree = "<group>";
+		};
+		A7D47D181BED219A00C2781B /* DreamMakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D47D191BED219A00C2781B /* DreamMakerTests.swift */,
+				A7D47D1B1BED219A00C2781B /* Info.plist */,
+			);
+			path = DreamMakerTests;
+			sourceTree = "<group>";
+		};
+		A7D47D231BED219A00C2781B /* DreamMakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7D47D241BED219A00C2781B /* DreamMakerUITests.swift */,
+				A7D47D261BED219A00C2781B /* Info.plist */,
+			);
+			path = DreamMakerUITests;
+			sourceTree = "<group>";
+		};
+		A7D47D341BED2B8200C2781B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7D47D3C1BED2C8C00C2781B /* FinModel.swift */,
+				A7D47D3E1BED2C9500C2781B /* Dream.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A7D47D351BED2BC000C2781B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A7D47D381BED2BE300C2781B /* FinOptionTableViewCell.swift */,
+				A7D47D361BED2BDC00C2781B /* DreamListCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		A7D47D431BED53D800C2781B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A7D47D481BED54B300C2781B /* CAGradientLayer.swift */,
+				A7D47D4C1BED810700C2781B /* UIButton.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7D47D001BED219A00C2781B /* DreamMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D47D291BED219A00C2781B /* Build configuration list for PBXNativeTarget "DreamMaker" */;
+			buildPhases = (
+				A7D47CFD1BED219A00C2781B /* Sources */,
+				A7D47CFE1BED219A00C2781B /* Frameworks */,
+				A7D47CFF1BED219A00C2781B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamMaker;
+			productName = DreamMaker;
+			productReference = A7D47D011BED219A00C2781B /* DreamMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7D47D141BED219A00C2781B /* DreamMakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D47D2C1BED219A00C2781B /* Build configuration list for PBXNativeTarget "DreamMakerTests" */;
+			buildPhases = (
+				A7D47D111BED219A00C2781B /* Sources */,
+				A7D47D121BED219A00C2781B /* Frameworks */,
+				A7D47D131BED219A00C2781B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7D47D171BED219A00C2781B /* PBXTargetDependency */,
+			);
+			name = DreamMakerTests;
+			productName = DreamMakerTests;
+			productReference = A7D47D151BED219A00C2781B /* DreamMakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7D47D1F1BED219A00C2781B /* DreamMakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7D47D2F1BED219A00C2781B /* Build configuration list for PBXNativeTarget "DreamMakerUITests" */;
+			buildPhases = (
+				A7D47D1C1BED219A00C2781B /* Sources */,
+				A7D47D1D1BED219A00C2781B /* Frameworks */,
+				A7D47D1E1BED219A00C2781B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7D47D221BED219A00C2781B /* PBXTargetDependency */,
+			);
+			name = DreamMakerUITests;
+			productName = DreamMakerUITests;
+			productReference = A7D47D201BED219A00C2781B /* DreamMakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7D47CF91BED219A00C2781B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Carles Gómez Saló";
+				TargetAttributes = {
+					A7D47D001BED219A00C2781B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A7D47D141BED219A00C2781B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7D47D001BED219A00C2781B;
+					};
+					A7D47D1F1BED219A00C2781B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A7D47D001BED219A00C2781B;
+					};
+				};
+			};
+			buildConfigurationList = A7D47CFC1BED219A00C2781B /* Build configuration list for PBXProject "DreamMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7D47CF81BED219A00C2781B;
+			productRefGroup = A7D47D021BED219A00C2781B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7D47D001BED219A00C2781B /* DreamMaker */,
+				A7D47D141BED219A00C2781B /* DreamMakerTests */,
+				A7D47D1F1BED219A00C2781B /* DreamMakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7D47CFF1BED219A00C2781B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D47D0F1BED219A00C2781B /* LaunchScreen.storyboard in Resources */,
+				A7D47D0C1BED219A00C2781B /* Assets.xcassets in Resources */,
+				A7D47D0A1BED219A00C2781B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D47D131BED219A00C2781B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D47D1E1BED219A00C2781B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7D47CFD1BED219A00C2781B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D47D391BED2BE300C2781B /* FinOptionTableViewCell.swift in Sources */,
+				A7D47D051BED219A00C2781B /* AppDelegate.swift in Sources */,
+				70761ABF1BED9C94007EBFF8 /* TaskQueue.swift in Sources */,
+				A7D47D331BED29CE00C2781B /* WishDreamsViewController.swift in Sources */,
+				A7D47D4B1BED5BE900C2781B /* FinDetailsViewController.swift in Sources */,
+				A7D47D3D1BED2C8C00C2781B /* FinModel.swift in Sources */,
+				A7D47D371BED2BDC00C2781B /* DreamListCell.swift in Sources */,
+				A7D47D3F1BED2C9500C2781B /* Dream.swift in Sources */,
+				A7D47D491BED54B300C2781B /* CAGradientLayer.swift in Sources */,
+				A7D47D4D1BED810700C2781B /* UIButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D47D111BED219A00C2781B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D47D1A1BED219A00C2781B /* DreamMakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D47D1C1BED219A00C2781B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D47D251BED219A00C2781B /* DreamMakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7D47D171BED219A00C2781B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7D47D001BED219A00C2781B /* DreamMaker */;
+			targetProxy = A7D47D161BED219A00C2781B /* PBXContainerItemProxy */;
+		};
+		A7D47D221BED219A00C2781B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7D47D001BED219A00C2781B /* DreamMaker */;
+			targetProxy = A7D47D211BED219A00C2781B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7D47D081BED219A00C2781B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D47D091BED219A00C2781B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7D47D0D1BED219A00C2781B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7D47D0E1BED219A00C2781B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7D47D271BED219A00C2781B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7D47D281BED219A00C2781B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7D47D2A1BED219A00C2781B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wanty.DreamMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7D47D2B1BED219A00C2781B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wanty.DreamMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7D47D2D1BED219A00C2781B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DreamMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wanty.DreamMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamMaker.app/DreamMaker";
+			};
+			name = Debug;
+		};
+		A7D47D2E1BED219A00C2781B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DreamMakerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wanty.DreamMakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamMaker.app/DreamMaker";
+			};
+			name = Release;
+		};
+		A7D47D301BED219A00C2781B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DreamMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wanty.DreamMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DreamMaker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7D47D311BED219A00C2781B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DreamMakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wanty.DreamMakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DreamMaker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7D47CFC1BED219A00C2781B /* Build configuration list for PBXProject "DreamMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D47D271BED219A00C2781B /* Debug */,
+				A7D47D281BED219A00C2781B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D47D291BED219A00C2781B /* Build configuration list for PBXNativeTarget "DreamMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D47D2A1BED219A00C2781B /* Debug */,
+				A7D47D2B1BED219A00C2781B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D47D2C1BED219A00C2781B /* Build configuration list for PBXNativeTarget "DreamMakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D47D2D1BED219A00C2781B /* Debug */,
+				A7D47D2E1BED219A00C2781B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7D47D2F1BED219A00C2781B /* Build configuration list for PBXNativeTarget "DreamMakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D47D301BED219A00C2781B /* Debug */,
+				A7D47D311BED219A00C2781B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7D47CF91BED219A00C2781B /* Project object */;
+}
